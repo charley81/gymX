@@ -1,5 +1,5 @@
 # gymX
 
-### website for gym
+### website for gymX
 
-> HTML, CSS Static Website
+> HTML, CSS, JS, jQuery
