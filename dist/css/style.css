@@ -36,7 +36,7 @@ img {
 
 /* ==== Utility Classes ==== */
 .container {
-  max-width: 1100px;
+  max-width: 1600px;
   margin: auto;
   padding: 0 2rem;
   overflow: hidden;
@@ -136,6 +136,10 @@ img {
   z-index: 1;
 }
 
+#navbar .logo {
+  font-size: 2rem;
+}
+
 #navbar ul {
   display: flex;
   list-style: none;
@@ -226,6 +230,10 @@ img {
   border: solid 6px var(--primary-color-darker);
   border-radius: 2px;
   margin: 0 1rem;
+}
+
+#membership .cards .card ul {
+  list-style: none;
 }
 
 /* ==== Testimonials ==== */
