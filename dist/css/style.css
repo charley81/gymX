@@ -30,6 +30,10 @@ a {
   text-decoration: none;
 }
 
+img {
+  max-width: 100%;
+}
+
 /* ==== Utility Classes ==== */
 .container {
   max-width: 1100px;
@@ -57,9 +61,13 @@ a {
 }
 
 .l-heading {
-  font-size: 4rem;
+  font-size: 6rem;
   margin-bottom: 1rem;
   line-height: 1.1;
+}
+
+.m-heading {
+  font-size: 4rem;
 }
 
 .p-1 {
@@ -109,6 +117,8 @@ a {
   display: inline-block;
   color: var(--text-primary);
   border-radius: 5px;
+  margin: 2rem 0;
+  font-size: 1.5rem;
 }
 
 .btn:hover {
@@ -141,6 +151,10 @@ a {
   background: #333 url("../img/showcase.jpg") no-repeat center center/cover;
   height: 100vh;
   color: var(--text-primary);
+}
+
+#showcase h1 {
+  font-size: 6rem;
 }
 
 #showcase .showcase-content {
@@ -191,4 +205,40 @@ a {
 
 #motivated .motivated-image {
   background: url("../img/gym.jpg") no-repeat center center/cover;
+}
+
+/* ==== Membership ==== */
+#membership {
+  background: url(../img/showcase.jpg) no-repeat center center/cover;
+  color: var(--text-primary);
+}
+
+#membership .pic-wrap {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+#membership .cards {
+  display: flex;
+}
+
+#membership .cards .card {
+  flex: 1;
+  border: solid 6px var(--primary-color-darker);
+  border-radius: 2px;
+  margin: 0 1rem;
+}
+
+/* ==== Testimonials ==== */
+#testimonial img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  display: block;
+  margin: 1rem auto;
+}
+
+#testimonial p {
+  padding: 0;
+  margin: 0;
 }
