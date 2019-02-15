@@ -3,6 +3,8 @@
 /* CSS Variable */
 :root {
   --primary-color: rgb(255, 166, 0);
+  --primary-dark: #333;
+  --primary-light: #f4f4f4;
   --primary-color-darker: rgb(227, 125, 0);
   --text-primary: #fff;
   --text-secondary: #333;
@@ -91,4 +93,27 @@ a {
 
 .btn:hover {
   background: var(--primary-color-darker);
+}
+
+/* Navbar */
+#navbar {
+  background: var(--primary-dark);
+  color: var(--text-primary);
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+#navbar ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+#navbar ul a {
+  color: var(--text-primary);
+  padding: 1rem;
 }
