@@ -4,4 +4,4 @@
 
 > HTML, CSS, JS, jQuery
 
-[View Website](https://app.netlify.com/sites/tender-noether-9f0630/overview)
+[View Website](https://tender-noether-9f0630.netlify.com/)
